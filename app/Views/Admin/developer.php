@@ -183,7 +183,7 @@
         </div>
         <div class="col-lg-7 col-md-6">
           <div class="img-box">
-            <img src="admin_ui/images/aboutphoto.jpeg" style="height:380px" alt="">
+            <img src="<?php echo base_url('admin_ui/images/aboutphoto.jpeg');?>" style="height:380px" alt="">
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@
             <div class="box">
               <div class="client_id">
                 <div class="img-box">
-                  <img src="admin_ui/images/teamsaurabh.jpeg" alt="">
+                  <img src="<?php echo base_url('admin_ui/images/teamsaurabh.jpeg');?>" alt="">
                 </div>
                 <div class="client_detail">
                   <div class="client_info">
@@ -239,7 +239,7 @@
             <div class="box">
               <div class="client_id">
                 <div class="img-box">
-                  <img src="admin_ui/images/sejalteam.jpeg" alt="">
+                  <img src="<?php echo base_url('admin_ui/images/sejalteam.jpeg');?>" alt="">
                 </div>
                 <div class="client_detail">
                   <div class="client_info">
@@ -269,7 +269,7 @@
             <div class="box">
               <div class="client_id">
                 <div class="img-box">
-                  <img src="admin_ui/images/teamakash.jpg" alt="">
+                  <img src="<?php echo base_url('admin_ui/images/teamakash.jpg');?>" alt="">
                 </div>
                 <div class="client_detail">
                   <div class="client_info">
@@ -298,7 +298,7 @@
             <div class="box">
               <div class="client_id">
                 <div class="img-box">
-                  <img src="admin_ui/images/abhiteam.jpg" alt="">
+                  <img src="<?php echo base_url('admin_ui/images/abhiteam.jpg');?>" alt="">
                 </div>
                 <div class="client_detail">
                   <div class="client_info">
@@ -327,7 +327,7 @@
             <div class="box">
               <div class="client_id">
                 <div class="img-box">
-                  <img src="admin_ui/images/teamonika.jpeg" alt="">
+                  <img src="<?php echo base_url('admin_ui/images/teamonika.jpeg');?>" alt="">
                 </div>
                 <div class="client_detail">
                   <div class="client_info">
