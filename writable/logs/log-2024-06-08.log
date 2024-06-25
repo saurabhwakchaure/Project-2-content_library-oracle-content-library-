@@ -1,0 +1,13 @@
+CRITICAL - 2024-06-08 13:21:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "User/userhome.php"
+[Method: POST, Route: checklogincredentials]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/userhome.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('User/userhome', [], true)
+ 3 APPPATH\Controllers\LoginController.php(47): view('User/userhome')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->checklogincredentials()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\content_library\\public\\index.php')
