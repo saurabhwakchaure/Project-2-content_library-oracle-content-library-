@@ -3,7 +3,7 @@
         'name' => 'codeigniter4/framework',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '6e87711487688bc6f4f638b96c6fd90f142cdc07',
+        'reference' => 'f1fc3b1cf3bb690e2e859234068536f28988f621',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'codeigniter4/framework' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '6e87711487688bc6f4f638b96c6fd90f142cdc07',
+            'reference' => 'f1fc3b1cf3bb690e2e859234068536f28988f621',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
