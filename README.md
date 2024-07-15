@@ -60,6 +60,8 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 
 Details of the project in brief:
+
+
 //Dashboard
 1.Dashboard:
 - consists of Dashboard for the users which consists of services of oracle then about the oracle and team of the oracle.
