@@ -58,3 +58,54 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+Details of the project in brief:
+//Dashboard
+1.Dashboard:
+- consists of Dashboard for the users which consists of services of oracle then about the oracle and team of the oracle.
+- it consist of login button for login to access services of the website.
+
+2.About us:
+-it having information about the oracle for eg.,their services ...
+
+3.Contact us:
+-it consist of some contact numbers and email id's and contact form.if user want's to contact to the admin then they have to fill this form otherwise contact on given email id's and phone numbers.
+
+4.Login Page & Register Page:
+- Login page consists of username and password.
+- if username and password match then it redirect to customer home page otherwise redirect to register page.
+
+//customer(client side)
+5.Home Page:
+- it consists of the services with their content as oracle cloud infrastructure,cloud application,oracle hardware,oracle software,oracle blockchain,oracle enterprise application.
+- all this services consists of their own pages which having information about their specific topics as oracle blockchain page consist of information about blockchain n it also consist's of pdf's and this pdf's is uploaded by the admin.
+
+6.Query form Page:
+- it having query form if user have any query then he/she have to fill this form.
+
+7.Team Page:
+-it having short information about oracle team members.
+
+//admin(server side)
+8.Admin Home page:
+-it having button to named as repair which consist of..
+
+9.Repair Page:
+- services names and contact, queryform and subscribe view button's to view list of customer's that fill the form as queryform,contactform and subscribe...
+- and contactformview and queryformview having buttons for admin to print and delete the record if we click on print button then it print this specific record and if we click on delete button then it delete this specific record.
+- And admin have form for each services to add pdf's content for eg when admin fill the form of software service means add any file related to software then it available to client side automatically on their software service page.this functionality is same for all remaining services.
+
+10.Database:
+- The database setting is done in .env file which consist of database name,driver,username,password
+
+11. i kept one key when this key is enter by the admin only in that case admin access the server side website otherwise not.
+
+12.Developer Page:
+- it consist's of developers who develop this website and this website is fully developed by me but my friend's also help me to develop the website so i also mentioned them in my website.
+
+-This is all information regarding my website which is oracle content library.
+
+Thank You..
+
+
+
