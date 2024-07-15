@@ -87,4 +87,23 @@ class LoginController extends BaseController
         return $this->response->redirect(site_url('home'));
 
     }
+
+    public function checkkey()
+    {
+        $key1="Sharad@8989";
+        $key2 = $this->request->getVar('key');
+
+        if($key1==$key2)
+        {
+            return $this->response->redirect(site_url('adminhome'));
+        }
+        else
+        {
+            ?>
+            <script> alert("access key does not match")</script>
+            <?php 
+            
+            return view('Admin/Adminkey/adminkey');
+        }
+    }
 }

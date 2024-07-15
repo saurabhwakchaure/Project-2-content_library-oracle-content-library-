@@ -319,6 +319,11 @@ class AdminController extends BaseController
         return view('Admin/developer');
     }
 
+    public function adminkey()
+    {
+        return view('Admin/Adminkey/adminkey');
+    }
+
     
 
 }

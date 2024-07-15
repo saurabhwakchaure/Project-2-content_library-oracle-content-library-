@@ -23,6 +23,7 @@ $routes->get('register','LoginController::registerpage');
 $routes->post('insertregister','LoginController::insert_into_register');
 $routes->post('checklogincredentials','LoginController::checklogincredentials');
 $routes->get('logout','LoginController::logout');
+$routes->post('checkkey','LoginController::checkkey');
 
 
 
@@ -100,6 +101,9 @@ $routes->get('printQuery/(:num)','AdminController::printQuery/$1');
 $routes->get('viewsubscribe','AdminController::viewsubscribe');
 //developer
 $routes->get('developer','AdminController::developer');
+
+//adminkey
+$routes->get('adminkey','AdminController::adminkey');
 
 
 
