@@ -112,7 +112,8 @@ Details of the project in brief:
 How to run the project-
 firstly,i uploaded a file in the repo which having details abount configuration of framework.
 and then open project on vs code and open terminal and type 
-php spark serve then it should display one link then open this link the it redirect to browser on port:8080 and type in url firstly /home infront of the port number then project run successfully ...
+php spark serve then it should display one link then open this link the it redirect to browser on port:8080 and type in url firstly /home infront of the port number then project run successfully ...ok
+
 
 
 Thank You..
